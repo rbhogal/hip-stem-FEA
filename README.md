@@ -12,8 +12,6 @@ Dimensioned sketch showing key geometry and critical dimensions of the stem.
 
 ## 3D Model
 
-![Hip stem render](images/render.png)
-
 An interactive 3D model of the circular hip stem (baseline) is also available as an STL file: [`model/hip-stem.stl`](model/circular_ti_load1_hip_stem.STL). Open it directly in GitHub to rotate and inspect the geometry.
 
 ## Design
