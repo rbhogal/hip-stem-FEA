@@ -2,27 +2,29 @@
 
 Finite element analysis of a femoral hip stem implant, evaluating stress distribution under simulated physiological loading. Three cross-sectional stem geometries — elliptical, circular, and trapezoidal — are compared to assess the effect of cross-section shape on stress performance.
 
+<!-- 
 ## Design
 
 Dimensioned sketch showing key geometry and critical dimensions of the stem.
 
 ![Dimensioned sketch](images/sketch-dimensioned.png)
+-->
 
 ## 3D Model
 
 ![Hip stem render](images/render.png)
 
-An interactive 3D model is also available as an STL file: [`model/hip-stem.stl`](model/circular_ti_load1_hip_stem.STL). Open it directly in GitHub to rotate and inspect the geometry.
+An interactive 3D model of the circular hip stem (baseline) is also available as an STL file: [`model/hip-stem.stl`](model/circular_ti_load1_hip_stem.STL). Open it directly in GitHub to rotate and inspect the geometry.
 
-## Cross-Section Variants
+## Design
 
-Three stem cross-section geometries were modeled and analyzed for comparison:
+Three stem geometries were modeled and analyzed for comparison:
 
 | Circular | Elliptical | Trapezoidal |
 |---|---|---|
 | ![Elliptical cross-section](images/circular-hip-stem.png) | ![Circular cross-section](images/elliptical-hip-stem.png) | ![Trapezoidal cross-section](images/trapezoidal-hip-stem.png) |
 
-## Loading & Boundary Conditions
+## Loading & Boundary Conditions [WIP]
 
 Applied load and fixture/restraint locations used in the simulation.
 
@@ -30,7 +32,7 @@ Applied load and fixture/restraint locations used in the simulation.
 
 *[Add a short note here on load magnitude/direction, e.g. "2600 N axial, simulating peak gait load"]*
 
-## Stress Results
+## Stress Results [WIP]
 
 Von Mises stress distribution for each cross-section variant.
 
@@ -46,19 +48,9 @@ Von Mises stress distribution for each cross-section variant.
 hip-stem-FEA/
 ├── README.md
 ├── images/
-│   ├── sketch-dimensioned.png
-│   ├── render.png
-│   ├── cross-section-elliptical.png
-│   ├── cross-section-circular.png
-│   ├── cross-section-trapezoidal.png
-│   ├── load-and-boundary-conditions.png
-│   ├── stress-plot-elliptical.png
-│   ├── stress-plot-circular.png
-│   └── stress-plot-trapezoidal.png
-├── cad/
-│   ├── hip-stem-elliptical.sldprt
-│   ├── hip-stem-circular.sldprt
-│   └── hip-stem-trapezoidal.sldprt
+│   ├── elliptical-hip-stem.png
+│   ├── circular-hip-stem.png
+│   ├── trapezoidal-hip-stem.png
 └── model/
     └── hip-stem.stl
 ```
