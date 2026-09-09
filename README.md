@@ -12,7 +12,7 @@ Dimensioned sketch showing key geometry and critical dimensions of the stem.
 
 ![Hip stem render](images/render.png)
 
-An interactive 3D model is also available as an STL file: [`model/hip-stem.stl`](model/hip-stem.stl). Open it directly in GitHub to rotate and inspect the geometry.
+An interactive 3D model is also available as an STL file: [`model/hip-stem.stl`](model/circular_ti_load1_hip_stem.STL). Open it directly in GitHub to rotate and inspect the geometry.
 
 ## Cross-Section Variants
 
