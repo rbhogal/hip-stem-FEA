@@ -1,6 +1,6 @@
 # Hip Stem FEA
 
-Finite element analysis of a femoral hip stem implant, evaluating stress distribution under simulated physiological loading. Three cross-sectional stem geometries — elliptical, circular, and trapezoidal — are compared to assess the effect of cross-section shape on stress performance.
+Finite element analysis of a femoral hip stem implant, evaluating stress distribution under simulated physiological loading. Three cross-sectional stem geometries — elliptical, circular, and trapezoidal — with two loads and two materials are compared to assess the effect of cross-section shape on stress performance.
 
 <!-- 
 ## Design
